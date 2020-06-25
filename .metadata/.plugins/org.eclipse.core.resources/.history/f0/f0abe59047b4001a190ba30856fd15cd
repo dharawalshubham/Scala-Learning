@@ -1,0 +1,13 @@
+
+// Anonymous functions and Default value and More
+
+object AnonFunc {
+  // you can use operator as a function also # cool feature
+  object Math {
+    def +(x: Int, y: Int) = x + y
+  }
+
+  def main(args: Array[String]) {
+    println(Math.+(23, 23))
+  }
+}

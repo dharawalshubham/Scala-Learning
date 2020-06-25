@@ -1,0 +1,15 @@
+
+// SCALA MATCH EXPRESSIONS
+
+object Match {
+  def main(args: Array[String]){
+    val age = 18
+    age match{
+      case 18 => println("Matched")
+      case 19 => println("Not Matched")
+      case 20 => println("Not Matched")
+
+
+    }
+  }
+}

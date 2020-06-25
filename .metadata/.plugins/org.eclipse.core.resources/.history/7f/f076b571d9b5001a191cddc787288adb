@@ -1,0 +1,8 @@
+
+
+object Maps {
+  val school: Map[Int,String] = Map(123->"Shubham",456->"Dharawal")
+  def main(args: Array[String]){
+    println(school)
+  }
+}

@@ -1,0 +1,11 @@
+
+// LISTS in scala
+
+object LISTS {
+  val mylist = List(1,2,3,4,5)
+  val name   = List("Shubham","Sarthak","Vikas","Archit")
+  def main(args: Array[String]){
+    println(mylist)
+    println(name)
+  }
+}

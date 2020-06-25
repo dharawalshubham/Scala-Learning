@@ -1,0 +1,13 @@
+
+// Scala - HIGHER ORDER FUNCTIONS
+// Are those which can take functions as arguments and can return
+// function as a result.
+
+object HighOrder {
+  def math(x:Double,y:Double,f:(Double,Double)=>Double):Double = f(x,y)
+  
+  def main(args: Array[String]){
+    val result = math(30,40,(x,y)=>x+y)
+    println(result)
+  }
+}

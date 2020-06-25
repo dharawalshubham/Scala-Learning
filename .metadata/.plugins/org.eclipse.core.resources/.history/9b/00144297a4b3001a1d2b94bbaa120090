@@ -1,0 +1,11 @@
+
+
+object ForLOOP {
+   def main(args: Array[String]){
+     for(i <- 1 to 5){  //syntax is for(var i <- range) // "to" is a method
+       println("i is " + i)    // statement
+     }
+     for(i <- 1.until(6))
+       println(i)
+   }
+}             // the loop above also can be written as for(i <- 1.to(5))

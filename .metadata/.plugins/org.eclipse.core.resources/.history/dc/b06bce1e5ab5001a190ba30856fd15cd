@@ -1,0 +1,20 @@
+
+// LISTS in scala
+
+object LISTS {
+  val mylist = List(1,2,3,4,5)
+  val name   = List("Shubham","Sarthak","Vikas","Archit")
+  def main(args: Array[String]){
+    println(mylist)
+    println(name)
+    val mylist2 = 0 +: mylist // prepend
+    val mylist3 = mylist2 :+ 6 // append
+    println(mylist2)
+    println(mylist3)
+    println(1::2::3::4::Nil) // creating list using Nil. "::" are cons
+    println(mylist.head) // print first element
+    println(mylist.tail) // print all the elements except the first
+    println(mylist.isEmpty) // check list is empty or not
+    println(mylist.reverse)
+  }
+}

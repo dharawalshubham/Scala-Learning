@@ -1,0 +1,19 @@
+
+// The Map class documentation describes a Map as an iterable sequence
+// that consists of pairs of keys and values.
+// Scala has both mutable and immutable Map classes.
+// Creating a mutable Map
+// To use the mutable Map class, first import it:
+
+import scala.collection.mutable.Map
+
+object MAPclass {
+  val states = Map(
+    "AK" -> "Alaska",
+    "IL" -> "Illinois",
+    "KY" -> "Kentucky"
+)
+  def main(args: Array[String]){
+    
+  }
+}

@@ -1,0 +1,13 @@
+
+// Option Type In Scala
+// In Scala Option is a container which gives you TWO values.
+// It can give you instance of "Some" or Instance of "None"
+
+object OptionType {
+  val list1 = List(1, 2, 3, 4)
+  val maps: Map[Int, String] = Map(123 -> "Lion", 456 -> "Tiger")
+  def main(args: Array[String]) {
+    println(list1.find(_ > 6))  // will give None 
+    println(list1.find(_ > 2)) 
+  }
+}

@@ -1,0 +1,12 @@
+
+// SCALA CLASSES
+
+class User(var name : String , var age : Int)
+
+object Classes {
+  def main(args: Array[String]){
+    var user = new User("Shubham",21) // Instance out of the class
+    println(user.name) // accessing name variable
+    println(user.age) // accessing age variable
+  }
+}

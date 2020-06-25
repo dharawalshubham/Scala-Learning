@@ -1,0 +1,12 @@
+
+ // FOR LOOP AS AN EXPRESSION.
+
+object FORloop2 {
+  def main(args: Array[String]){
+    var lst = List(1,2,3,4,5,6,7)
+    var result = for{i <- lst}yield{
+      i*i
+    }
+    println(result)
+  }
+}

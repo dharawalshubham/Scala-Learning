@@ -1,0 +1,12 @@
+
+// Auxilary Contructers - Alternative Contructer of the class.
+
+class User(var name : String,var age: Int){
+  
+}
+
+object UserContinue {
+  def main(args: Array[String]){
+    var user = new User("Shubham" , 19)
+  }
+}

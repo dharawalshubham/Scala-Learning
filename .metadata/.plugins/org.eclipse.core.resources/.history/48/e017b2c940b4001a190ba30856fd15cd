@@ -1,0 +1,10 @@
+// FUNCTIONS IN SCALA.
+
+object FUNCTIONS {
+  def add(x : Int , y : Int) : Int = {
+    return x+y
+  }
+  def main(args: Array[String]){
+    println("addtion of given input is " + add(45,50))
+  }
+}

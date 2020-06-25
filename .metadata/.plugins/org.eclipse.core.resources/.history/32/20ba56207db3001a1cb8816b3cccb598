@@ -1,0 +1,12 @@
+// SCALA IF ELSE
+
+object Demo {
+  def main(args: Array[String]) {
+    val age = 18
+    if (age == 18) {
+      println("True")
+    } else {
+      println("False")
+    }
+  }
+}

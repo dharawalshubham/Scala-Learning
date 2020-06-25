@@ -1,0 +1,22 @@
+// Reduce - Reduce function is applied on collection data structure in scala
+// that contains lists, sets, maps, sequence and tuples. Parameter in the 
+// reduce function is a binary operation which merges all the elements from
+// the collection and returns a single value.. The first two values is
+// combined with the binary operation and the resultant of that operation 
+// combines with the next value of the collection and atlast we obtain a
+// single value.
+//--------------------------------------------------------------------------
+
+object  ReduceFoldScan {
+  // Scala program sum of elements , minimum and maximum  
+  // using reduce function  
+  val seq_elements: Seq[Double] = Seq(3.5, 5.0, 1.5) 
+  def main(args: Array[String]){
+    val sum: Double = seq_elements.reduce((a, b) => a + b) 
+    println(sum)
+    val maximum : Double = seq_elements.reduce(_ max _) 
+    print("maximum number is " + maximum)
+    val minimum : Double = seq_elements.reduce(_ min _)
+    print("minimum number is " + minimum)
+  }
+}

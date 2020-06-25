@@ -1,0 +1,9 @@
+
+
+object Stringss {
+  val str1: String = "Hello"
+  val str2: String = "Shubham"
+  def main(args: Array[String]) {
+    println(str1)
+  }
+}

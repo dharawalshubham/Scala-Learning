@@ -1,0 +1,12 @@
+
+
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    val name = "Shubham"
+    val age  = 21
+    println(name + " is " + age + " years old" )
+    println(s"$name is $age years old" )  
+    println(f"$name%s is $age%d years old")
+    println(raw"hello /n world")
+  }
+}

@@ -1,0 +1,25 @@
+
+// ARRAYS in scala
+
+object ARRAY {
+  val myarray: Array[Int] = new Array[Int](4) // index starts from 0
+  val myarray2 = new Array[String](5)
+  def main(args: Array[String]) {
+    myarray(0) = 20
+    myarray(1) = 40
+    myarray(2) = 50
+    myarray(3) = 60
+    myarray2(0) = "My"
+    myarray2(1) = "name"
+    myarray2(2) = "is"
+    myarray2(3) = "God"
+    println(myarray)
+    println(myarray2)
+    for(j <- myarray2){
+      println(j)
+    }
+    for (i <- myarray) {
+    println(i)
+    }
+  }
+}

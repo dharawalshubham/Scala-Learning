@@ -1,0 +1,17 @@
+
+// map, flatMap, flatten and filter.
+// map() is a higher order function.
+// Every collection object has the map() method.
+// map() takes some function as a parameter.
+// map() applies the function to every element of the source collection.
+// map() returns a new collection of the same type as the source collection.
+// simple we use map() to iterate over collection
+
+object HighOrderMethod {
+  val list1 = List(1, 2, 3, 4)
+  val maps: Map[Int, String] = Map(123 -> "AAA", 567 -> "BBB")
+  def main(args: Array[String]) {
+    println(list1.map(_ * 2))
+    println(list1.map(x => x*2))
+  }
+}

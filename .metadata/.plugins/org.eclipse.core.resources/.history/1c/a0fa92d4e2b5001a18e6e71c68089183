@@ -1,0 +1,18 @@
+
+// TUPLES in scala
+// A tuple is a neat class that gives you a simple way to store heterogeneous
+// (different) items in the same container.
+// Scala tuples can contain between two and 22 items, and they’re
+// useful for those times when you just need to combine a few things
+// together
+// Technically, Scala 2.x tuples aren’t collections classes, they’re
+// just a convenient little container. Because they aren’t a
+// collection, they don’t have methods like map, filter, etc.
+// Tuples are also immutable
+ 
+object Tuples {
+  val mytuple = (10, 2.34, "hello", true)
+  def main(args: Array[String]) {
+    println(mytuple)
+  }
+}

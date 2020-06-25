@@ -1,0 +1,19 @@
+
+
+object ForLOOP {
+  def main(args: Array[String]) {
+    for (i <- 1 to 5) { //syntax is for(var i <- range) // "to" is a method
+      println("i is " + i) // statement
+    }
+    for (i <- 1.until(6)){ // not including the end.
+      println(i)
+    }
+    
+    // Giving multiple ranges in for loop
+    for(i <- 1.to(3); j <- 1.to(3))
+      println("i is " + i + " j is " + j)
+  }
+
+}             // the loop above also can be written as for(i <- 1.to(5))
+
+            // "<-" is known as the generator.

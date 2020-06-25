@@ -1,0 +1,9 @@
+
+
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    val name = "Shubham"
+    val age  = 21
+    println(name + " is" + age + " years old" )
+  }
+}

@@ -1,0 +1,7 @@
+package Inheritance
+
+// SUB CLASS
+
+class Triangle extends Polygon {
+  
+}
